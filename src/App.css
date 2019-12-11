@@ -14,9 +14,15 @@
     color: white;
     background-color: #322c2d;
     box-shadow: 1px 1px #322c2d;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+  }
+
+  .numbersButton {
+      color: white;
+      background-color: darkblue;
+      font-size: 1.3rem;
+      margin: 2% 2% 2%;
+      padding: 5%;
+      border-radius: 50%;
   }
