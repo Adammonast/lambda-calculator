@@ -14,6 +14,9 @@
     color: white;
     background-color: #322c2d;
     box-shadow: 1px 1px #322c2d;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;  
     padding-right: 8%;
     font-size: 5.0rem;
   }
@@ -21,8 +24,41 @@
   .numbersButton {
       color: white;
       background-color: darkblue;
-      font-size: 1.3rem;
-      margin: 2% 2% 2%;
-      padding: 5%;
+      font-size: 2rem;
       border-radius: 50%;
+  }
+
+  .operatorButton {
+    color: white;
+    background-color: darkblue;
+    font-size: 2rem;
+    border-radius: 50%;
+}
+
+.specialButton {
+    color: white;
+    background-color: darkblue;
+    font-size: 2rem;
+    border-radius: 50%;
+}
+
+  .numbers-container {
+      display: flex;
+      justify-content: space-evenly;
+      padding-top: 5%;
+      padding-left: 5%;
+  }
+
+  .operators-container {
+      display: flex;
+      justify-content: space-evenly;
+      padding-top: 5%;
+      padding-left: 5%;
+  }
+
+  .specials-container {
+      display: flex;
+      justify-content: space-evenly;
+      padding-top: 5%;
+      padding-left: 5%;
   }
